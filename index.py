@@ -4,7 +4,7 @@ import datetime
 
 def handler(event, context):
     data = {
-        'output': 'Hello World',
+        'output': 'Hello World. This is my first AWS python application',
         'timestamp': datetime.datetime.utcnow().isoformat()
     }
     return {'statusCode': 200,
